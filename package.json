@@ -11,8 +11,5 @@
   "dependencies": {
     "express": "^4.14.0",
     "xss-filters": "^1.2.7"
-  },
-  "scripts": {
-    "start": "index.js"
-}
+  }
 }
