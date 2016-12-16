@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>A7 - Local Storage </title>
+      <script type="text/javascript" src="js/contentscript.js"></script>
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/bootstrap.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <!-- Bootstrap Core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom CSS -->
+      <link href="css/blog-post.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+         <div class="container">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li>
+                     <a href="/README.md">ReadMe</a>
+                  </li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container -->
+      </nav>
+      <div class="container">
+         <div class="well">
+            <h1> A7 - Local Storage </h1>
+            <form role="form" onsubmit="return false;">
+               <label for="postTextField">Enter in an anonomous post!</label><br>
+               <div class="form-group">
+                  <textarea id="postTextField" class="form-control" rows="2"></textarea>
+               </div>
+               <button id="enterPostButton" type="submit" class="btn btn-primary">Post</button>
+            </form>
+         </div>
+      </div>
+      <div id="posts"></div>
+      <footer >
+         <div style = "margin-left:10px;" class="row">
+            <div class="col-lg-12">
+               <div>Copyright &copy; Yuan Will Wen 2016. </div>
+               <p> Styling is from : Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/). </p>
+            </div>
+         </div>
+         <!-- /.row -->
+      </footer>
+      </div>
+   </body>
+</html>

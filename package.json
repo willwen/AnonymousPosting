@@ -1,0 +1,15 @@
+{
+  "name": "assignment7",
+  "version": "1.0.0",
+  "description": "assignment 7 for webware cs 4241",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "willwen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "xss-filters": "^1.2.7"
+  }
+}
